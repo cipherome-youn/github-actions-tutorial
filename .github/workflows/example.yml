@@ -40,6 +40,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Greet Everyone
+      - name: Test Greeting
         run: pytest test_greeting.py
       
