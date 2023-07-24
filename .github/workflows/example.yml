@@ -22,7 +22,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Greet Everyone
-        run: python main.py
+        run: python greeting.py
 
 
   test-greeting:
