@@ -1,5 +1,5 @@
 def greeting():
-    return "Hello Universe!"
+    return "Hello world!"
 
 
 print(greeting())
